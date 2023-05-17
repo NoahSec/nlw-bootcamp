@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121215;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteiner-main{
+    display: flex;
+    flex-direction: column;/*deixa um abaixo do outro depois que usa display:flex*/
+    gap: 50px;/*da espaço entre os elementos*/
+}
+
+.conteiner-timeline{
+    margin-left: 50%;
+    margin-top: 5%;
+
+}
+.conteiner-timeline small{
+    color:#BEBEBF;
+    font-size: 15px;
+}
+
+.conteiner-timeline h1{
+    font-size: 32px;
+}
+
+.conteiner-timeline img{
+    width: 50%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.conteiner-timeline p{
+    font-size: 18px;
+    line-height: 1.5em;
+    width: 20em;
+}
+
